@@ -18,6 +18,8 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
+	<!-- Global site tag (gtag.js) - Google Ads: 982505710 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-982505710"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-982505710'); </script>
+	<!-- Event snippet for Website traffic conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-982505710/2EHcCMGlhP4BEO6xv9QD'}); </script>
 </head>
 
 <body <?php body_class('theme-body'); ?>>
