@@ -1,0 +1,8 @@
+=== v1.0.2 ===
+- Fixed header layout issue
+
+=== v1.0.1 ===
+- Fixed sanitization issues
+
+=== v1.0.0 ===
+- Initial Release

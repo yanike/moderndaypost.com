@@ -1,0 +1,330 @@
+/*
+Theme Name: Ultra News
+Theme URI: https://wpoperation.com/themes/ultra-news/
+Template: ultra-seven
+Author: WPoperation
+Author URI: http://wpoperation.com/
+License:      GNU General Public License v3 or later
+License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+Description: Create flexible news,magazine,blog and travel diaries with easy drag & drop page builder within minutes. It's now easy to share your ideas through your posts without any hassle.
+Tags: right-sidebar,left-sidebar,custom-background, custom-menu, featured-images, threaded-comments, translation-ready,custom-logo, footer-widgets,blog,post-formats,sticky-post,theme-options,news
+Version: 1.0.2
+Text Domain:  ultra-news 
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 5.5.1
+
+
+Ultra News is a WordPress Theme, 
+Copyright (C) 2019, WPoperation
+Ultra News is distributed under the terms of the GNU GPL
+
+This program is free software, you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+*/
+body, button, input, select, optgroup, textarea {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+h2.widget-title, 
+.ultra-related-wrapper.slide .related-title, .related.products h2 {
+    font-family: "Taviraj", sans-serif;
+    font-weight: 600;
+}
+.ultra-custom-header.fixed {
+    position: fixed;
+    z-index: 99999;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    background: #fff;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.current-date{
+    color: #fff;
+}
+.post-meta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+span.posted-on {
+    margin-left: 10px;
+}
+.ticker-wrap button.slick-arrow{
+    z-index: 999;
+}
+/*Modified Header 2 */
+.site-header.layout-two .middle-block-wrap {
+    padding: 10px 0;
+}
+.site-header.layout-two .middle-block-wrap .container {
+    display: flex;
+    align-items: center;
+}
+.site-header.layout-two .middle-block-wrap .site-branding{
+    justify-content: flex-start;
+    width: 20%;
+}
+.site-header.layout-two .ultra-header-banner {
+    justify-content: flex-end;
+    width: 80%;
+    text-align: right;
+}
+.site-header.layout-two .main-navigation li {
+    float: left;
+    font-family: "Taviraj", sans-serif;
+}
+.site-header.layout-two .main-navigation ul li a{
+    font-size: 15px;
+}
+.elementor-widget-wrap .ultra-block-wrapper{
+    margin: 0;
+}
+
+.ultra-block-wrapper .single-post .post-thumb .cat-wrap {
+    left: unset;
+    right: 10px;
+}
+
+.ultra-block-wrapper.grid-post-list.layout-1 .single-post{
+    margin-bottom: 35px;
+}
+
+.home .post-author img {
+    display: block;
+    
+}
+
+.post-meta span.author a:before{
+    content: none !important;
+}
+.post-meta .post-author{
+    margin: 0 !important;
+}
+
+.post-meta span.author > a{
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.post-meta .post-author .author{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.post-meta .post-author .author-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.post-meta .post-author .author-img img{
+	border-radius: 50%;
+}
+.widget_ultra_seven_posts_list .post-meta .post-author .author-img{
+    height: 15px;
+    width: 15px;
+}
+/* Ticker */
+.ticker-item .date{
+	margin-right: 15px;
+}
+.arrow-vertical .ticker-wrap button.slick-arrow {
+    top: -16px;
+    z-index: 9999;
+}
+span.post-date:before {
+    position: absolute;
+    content: '';
+    font-family: FontAwesome;
+    font-size: 12px;
+    left: 16px;
+    top: 42px;
+}
+span.post-date:before {
+    content: '\f017';
+}
+span.post-date {
+    display: block;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.post-meta .comments-count{ margin-top: 10px; }
+
+#ultra-go-top{
+	border-radius: none;
+    -webkit-box-shadow: 2px 1px 7px 0px rgba(27, 24, 24, 0.28);
+    box-shadow: 2px 1px 7px 0px rgba(27, 24, 24, 0.28);
+}
+.site-footer{
+    margin-top: 30px;
+}
+.site-footer .footer-widgets-wrap {
+    padding: 25px 0;
+}
+
+.blog .secondary {
+    margin-top: 73px;
+}
+
+.box-search-content .btn-search {
+    padding: 0 !important;
+    height: 0 !important;
+    color: #fff !important;
+}
+.box-search-content .btn-search i {
+	font-size: 20px !important;
+}
+
+.header-right .wpopea-hamburger {
+    height: 20px;
+    padding-left: 2px;
+    width: 20px;
+}
+.header-right  .wpopea-menu-toggle .wpopea-hamburger .wpopea-hamburger-box .wpopea-hamburger-inner:after {
+	bottom: -5px;
+}
+.header-right  .wpopea-menu-toggle .wpopea-hamburger .wpopea-hamburger-box .wpopea-hamburger-inner:before {
+	top: -5px;
+}
+.header-right  .wpop-search-box.wpop-search-style-5 .btn-search i{
+	font-size: 14px;
+}
+@media (max-width: 990px) {
+    .site-header.layout-two .middle-block-wrap .site-branding {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*Preloader13*/
+#loading13 #loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#loading13 #loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    -webkit-animation: loading-center-absolute13 1s infinite;
+    animation: loading-center-absolute13 1s infinite;
+}
+#loading13 .object {
+    width: 20px;
+    height: 20px;
+    background-color: #ec2d2f;
+    float: left;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#loading13 .object:nth-child(2n+0) {
+    margin-right: 0px;
+}
+#loading13 #object_one {
+    -webkit-animation: object_one13 1s infinite;
+    animation: object_one13 1s infinite;
+}
+#loading13 #object_two {
+    -webkit-animation: object_two13 1s infinite;
+    animation: object_two13 1s infinite;
+}
+#loading13 #object_three {
+    -webkit-animation: object_three13 1s infinite;
+    animation: object_three13 1s infinite;
+}
+#loading13 #object_four {
+    -webkit-animation: object_four13 1s infinite;
+    animation: object_four13 1s infinite;
+}
+@-webkit-keyframes loading-center-absolute13 {
+    100% {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes loading-center-absolute13 {
+    100% {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes object_one13 {
+    50% {
+        -ms-transform: translate(20px, 20px);
+        -webkit-transform: translate(20px, 20px);
+        transform: translate(20px, 20px);
+    }
+}
+@keyframes object_one13 {
+    50% {
+        -ms-transform: translate(20px, 20px);
+        -webkit-transform: translate(20px, 20px);
+        transform: translate(20px, 20px);
+    }
+}
+@-webkit-keyframes object_two13 {
+    50% {
+        -ms-transform: translate(-20px, 20px);
+        -webkit-transform: translate(-20px, 20px);
+        transform: translate(-20px, 20px);
+    }
+}
+@keyframes object_two13 {
+    50% {
+        -ms-transform: translate(-20px, 20px);
+        -webkit-transform: translate(-20px, 20px);
+        transform: translate(-20px, 20px);
+    }
+}
+@-webkit-keyframes object_three13 {
+    50% {
+        -ms-transform: translate(20px, -20px);
+        -webkit-transform: translate(20px, -20px);
+        transform: translate(20px, -20px);
+    }
+}
+@keyframes object_three13 {
+    50% {
+        -ms-transform: translate(20px, -20px);
+        -webkit-transform: translate(20px, -20px);
+        transform: translate(20px, -20px);
+    }
+}
+@-webkit-keyframes object_four13 {
+    50% {
+        -ms-transform: translate(-20px, -20px);
+        -webkit-transform: translate(-20px, -20px);
+        transform: translate(-20px, -20px);
+    }
+}
+@keyframes object_four13 {
+    50% {
+        -ms-transform: translate(-20px, -20px);
+        -webkit-transform: translate(-20px, -20px);
+        transform: translate(-20px, -20px);
+    }
+}
