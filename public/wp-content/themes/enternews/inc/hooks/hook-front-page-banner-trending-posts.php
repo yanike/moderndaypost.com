@@ -26,7 +26,7 @@ if (!function_exists('enternews_banner_trending_posts')):
             $enternews_trending_category = enternews_get_option('select_trending_carousel_category');
         }
 
-        $carousel_class = 'af-main-banner-trending-posts-vertical-carousel';
+        $carousel_class = 'af-main-banner-trending-posts-vertical-carousel aft-slick-vertical-carousel';
 
 
         $dir = 'ltr';

@@ -41,21 +41,7 @@ get_header();
                             <?php endif; ?>
                         <?php endif; ?>
 
-
                         <div class="entry-content-wrap read-single">
-                            <?php
-                            //                                    if(is_singular('post')){
-                            //                                        $single_post_featured_image_view = enternews_get_option('single_post_featured_image_view');
-                            //                                        if ($single_post_featured_image_view == 'within-content') {
-                            //                                            do_action('enternews_action_single_featured_image');
-                            //                                        }
-                            //                                    }else{
-                            //                                        enternews_post_thumbnail();
-                            //                                    }
-
-                            ?>
-
-
                             <?php get_template_part('template-parts/content', get_post_type()); ?>
                         </div>
 

@@ -87,7 +87,7 @@ if ( ! function_exists( 'enternews_details_setup' ) ) :
                 'five' => array(
                     'title'       => esc_html__( 'Demo Content', 'enternews' ),
                     'icon'        => 'dashicons dashicons-layout',
-                    'description' => sprintf( esc_html__( 'To import sample demo content, %1$s plugin should be installed and activated. After plugin is activated, visit AF Companion Dashboard from admin menu.', 'enternews' ), esc_html__( 'AF Companion', 'enternews' ) ),
+                    'description' => sprintf( esc_html__( 'To import sample demo content, %1$s plugin should be installed and activated. After plugin is activated, visit AF Companion Dashboard from admin menu.', 'enternews' ), '<a href="https://wordpress.org/plugins/af-companion/" target="_blank">AF Companion</a>' ),
                     'button_text' => esc_html__( 'Demo Content', 'enternews' ),
                     'button_url'  => admin_url( 'themes.php?page=enternews-pro-details&tab=demo-content' ),
                     'button_type' => 'secondary',

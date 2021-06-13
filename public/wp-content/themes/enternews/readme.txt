@@ -2,10 +2,10 @@
 Contributors: afthemes
 Requires PHP: 5.6
 Tested up to: 5.7
-Stable tag: 1.0.4
+Stable tag: 1.0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
 
 A starter theme called EnterNews.
 
@@ -21,7 +21,7 @@ EnterNews WordPress Theme, Copyright 2018 AF themes
 EnterNews is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
-EnterNews is the best responsive News and Magazine WordPress Theme. The theme includes two color modes: default and dark, allowing you to present articles and blog posts in a trendy manner.To make a fantastic news website, you can design it however you like and preview the changes using live customizer options and custom widgets.It works with Gutenberg WordPress blocks and RTL, as well as the WooCommerce plugin, which helps you to combine an online store with our newspaper style. It has a lot of helpful features, including the ability to build a fantastic-looking newsportal. The theme is perfect for a news, newspaper, magazine, publishing, or review platform, and it's also useful for blogging. It's well-designed to get the website to the top of search engines, and users can get excellent assistance from the team if they run into any issues when using the theme.This theme also includes a variety of demonstrations, so pick one that you like and start building your website.  See our demos: https://afthemes.com/enternews-the-best-responsive-news-and-magazine-wordpress-theme/
+EnterNews is the best responsive News and Magazine WordPress Theme. To make a fantastic news website, the theme has a number of free starter sites with a single click import. The theme is completely widgetized, empowering users to control site content with 8+ custom widgets and widget areas. Also it includes default and dark color mode, allowing you to present articles and blog posts in a trendy manner. In addition, it comes with a variety of useful customizer options for creating a stunning newsportal. You can design it however you like and preview the changes using live customizer. It works with Gutenberg WordPress blocks and RTL, as well as the WooCommerce plugin, which helps you to combine an online store with our newspaper style. The theme is perfect for a news, newspaper, magazine, publishing, or review platform, and it's also useful for blogging. It's well-designed to get the website to the top of search engines, and users can get excellent assistance from the team if they run into any issues when using the theme. See our demos: https://afthemes.com/enternews-the-best-responsive-news-and-magazine-wordpress-theme/
 
 
 == Installation ==
@@ -37,6 +37,16 @@ EnterNews is the best responsive News and Magazine WordPress Theme. The theme in
 EnterNews includes support for Infinite Scroll in Jetpack.
 
 == Change log ==
+= 1.0.7 - April 22 2021 =
+* Fixes - Some design glitches
+
+= 1.0.6 - April 20 2021 =
+* Update - Added new social icons
+* Fixes - Some design glitches
+
+= 1.0.5 - April 06 2021 =
+* Fixes - Original image width for post/page contents
+
 = 1.0.4 - Mar 29 2021 =
 * Fixes - Some design glitches
 

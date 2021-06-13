@@ -3,14 +3,14 @@ Theme Name: EnterNews
 Theme URI: https://afthemes.com/products/enternews/
 Author: AF themes
 Author URI: https://www.afthemes.com/
-Description: EnterNews is the best responsive News and Magazine WordPress Theme. The theme includes two color modes: default and dark, allowing you to present articles and blog posts in a trendy manner.To make a fantastic news website, you can design it however you like and preview the changes using live customizer options and custom widgets.It works with Gutenberg WordPress blocks and RTL, as well as the WooCommerce plugin, which helps you to combine an online store with our newspaper style. It has a lot of helpful features, including the ability to build a fantastic-looking newsportal. The theme is perfect for a news, newspaper, magazine, publishing, or review platform, and it's also useful for blogging. It's well-designed to get the website to the top of search engines, and users can get excellent assistance from the team if they run into any issues when using the theme.This theme also includes a variety of demonstrations, so pick one that you like and start building your website.  See our demos: https://afthemes.com/enternews-the-best-responsive-news-and-magazine-wordpress-theme/
+Description: EnterNews is the best responsive News and Magazine WordPress Theme. To make a fantastic news website, the theme has a number of free starter sites with a single click import. The theme is completely widgetized, empowering users to control site content with 8+ custom widgets and widget areas. Also it includes default and dark color mode, allowing you to present articles and blog posts in a trendy manner. In addition, it comes with a variety of useful customizer options for creating a stunning newsportal. You can design it however you like and preview the changes using live customizer. It works with Gutenberg WordPress blocks and RTL, as well as the WooCommerce plugin, which helps you to combine an online store with our newspaper style. The theme is perfect for a news, newspaper, magazine, publishing, or review platform, and it's also useful for blogging. It's well-designed to get the website to the top of search engines, and users can get excellent assistance from the team if they run into any issues when using the theme. See our demos: https://afthemes.com/enternews-the-best-responsive-news-and-magazine-wordpress-theme/
 Requires PHP: 5.6
 Tested up to: 5.7
-Version: 1.0.4
+Version: 1.0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: enternews
-Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -1403,7 +1403,32 @@ body.full-width-content #primary ,
 .aft-small-social-menu ul li a[href*="github.com"] {
     background-color: #00405d;
 }
+.em-author-details ul li a[href*="snapchat.com"],
+.social-widget-menu ul li a[href*="snapchat.com"],
+.aft-small-social-menu ul li a[href*="snapchat.com"] {
+    background-color: #e6e400;
+}
+.em-author-details ul li a[href*="twitch.com"],
+.social-widget-menu ul li a[href*="twitch.com"],
+.aft-small-social-menu ul li a[href*="twitch.com"] {
+    background-color: #6441a5;
+}
+.em-author-details ul li a[href*="viber.com"],
+.social-widget-menu ul li a[href*="viber.com"],
+.aft-small-social-menu ul li a[href*="viber.com"] {
+    background-color: #665cac;
+}
+.em-author-details ul li a[href*="tiktok.com"],
+.social-widget-menu ul li a[href*="tiktok.com"],
+.aft-small-social-menu ul li a[href*="tiktok.com"] {
+    background-color: #010101;
+}
+
 .aft-widget-background-dim .social-widget-menu ul li a,
+.aft-widget-background-dim .social-widget-menu ul li a[href*="snapchat.com"],
+.aft-widget-background-dim .social-widget-menu ul li a[href*="twitch.com"],
+.aft-widget-background-dim .social-widget-menu ul li a[href*="viber.com"],
+.aft-widget-background-dim .social-widget-menu ul li a[href*="tiktok.com"],
 .aft-widget-background-dim .social-widget-menu ul li a[href*="facebook.com"],
 .aft-widget-background-dim .social-widget-menu ul li a[href*="dribble.com"],
 .aft-widget-background-dim .social-widget-menu ul li a[href*="vk.com"],
@@ -1425,6 +1450,10 @@ body.full-width-content #primary ,
     background-color: rgba(0,0,0,.25);
 }
 .aft-widget-background-dark .social-widget-menu ul li a,
+.aft-widget-background-dark .social-widget-menu ul li a[href*="snapchat.com"],
+.aft-widget-background-dark .social-widget-menu ul li a[href*="twitch.com"],
+.aft-widget-background-dark .social-widget-menu ul li a[href*="viber.com"],
+.aft-widget-background-dark .social-widget-menu ul li a[href*="tiktok.com"],
 .aft-widget-background-dark .social-widget-menu ul li a[href*="facebook.com"],
 .aft-widget-background-dark .social-widget-menu ul li a[href*="dribble.com"],
 .aft-widget-background-dark .social-widget-menu ul li a[href*="vk.com"],
@@ -1446,6 +1475,10 @@ body.full-width-content #primary ,
     background-color: #252525;
 }
 body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a,
+body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="snapchat.com"],
+body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="twitch.com"],
+body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="viber.com"],
+body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="tiktok.com"],
 body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="facebook.com"],
 body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="dribble.com"],
 body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*="vk.com"],
@@ -1468,6 +1501,10 @@ body.aft-dark-mode .aft-widget-background-dark .social-widget-menu ul li a[href*
     color: #404040;
 }
 body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a,
+body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="snapchat.com"],
+body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="twitch.com"],
+body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="viber.com"],
+body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="tiktok.com"],
 body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="facebook.com"],
 body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="dribble.com"],
 body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="vk.com"],
@@ -1488,7 +1525,12 @@ body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .s
 body.aft-dark-mode.alternative-sidebar-background .aft-widget-background-dark .social-widget-menu ul li a[href*="github.com"]{
     background-color: #222;
 }
+
 .aft-widget-background-secondary-background .social-widget-menu ul li a,
+.aft-widget-background-secondary-background .social-widget-menu ul li a[href*="snapchat.com"],
+.aft-widget-background-secondary-background .social-widget-menu ul li a[href*="twitch.com"],
+.aft-widget-background-secondary-background .social-widget-menu ul li a[href*="viber.com"],
+.aft-widget-background-secondary-background .social-widget-menu ul li a[href*="tiktok.com"],
 .aft-widget-background-secondary-background .social-widget-menu ul li a[href*="facebook.com"],
 .aft-widget-background-secondary-background .social-widget-menu ul li a[href*="dribble.com"],
 .aft-widget-background-secondary-background .social-widget-menu ul li a[href*="vk.com"],
@@ -1617,6 +1659,23 @@ body .site-info {
 .social-navigation ul a[href*="github.com"]:after,
 .social-widget-menu ul a[href*="github.com"]:before {
     content: "\f09b";
+}
+
+.social-navigation ul a[href*="snapchat.com"]:after,
+.social-widget-menu ul a[href*="snapchat.com"]:before {
+    content: "\f2ad";
+}
+.social-navigation ul a[href*="viber.com"]:after,
+.social-widget-menu ul a[href*="viber.com"]:before {
+    content: "\f409";
+}
+.social-navigation ul a[href*="twitch.com"]:after,
+.social-widget-menu ul a[href*="twitch.com"]:before {
+    content: "\f1e8";
+}
+.social-navigation ul a[href*="tiktok.com"]:after,
+.social-widget-menu ul a[href*="tiktok.com"]:before {
+    content: "\e07b";
 }
 
 /*social-navigation=================================*/
@@ -6310,11 +6369,6 @@ div.wp-block .editor-rich-text__editable code {
 
 .entry-content .aligncenter{text-align: center;}
 
-.alignfull:not(.wp-block-cover),
-.alignwide{
-    /*background-color: #fff;*/
-}
-
 .entry-content ol:not([class*="wp-"]) ,
 .entry-content ul:not([class*="wp-"]):not(.awpa-contact-info) {
     padding-left: 0;
@@ -6770,9 +6824,6 @@ body.full-width-content .alignfull{
     margin-right: calc(50% - 50vw - 10px);
     max-width: 100vw;
     width: 100vw;
-}
-figure.wp-block-image img{
-    width: 100%;
 }
 
 body:not(.full-width-content) article .alignwide{
@@ -7870,6 +7921,12 @@ iframe.vid_frame.entry-header-yt-iframe {
 }
 
 /* banner refinement during rtl refinement */
+.slick-slide div > .col-1 {
+    display: block !important;
+}
+.aft-slick-vertical-carousel.slick-vertical .slick-slide {
+    line-height: 1;
+}
 .layout-4 .aft-main-banner-wrapper .af-editors-pick .em-title-subtitle-wrap ,
 .layout-5 .aft-main-banner-wrapper .af-editors-pick .em-title-subtitle-wrap {
     margin-left: -7.5px;
